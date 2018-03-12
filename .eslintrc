@@ -1,0 +1,35 @@
+{
+    "plugins": [
+        "react",
+    ],
+    "settings": {
+        "import/resolver": {
+            "node": {
+                "extensions": [".js", ".jsx", ".android.js", ".ios.js"]
+            }
+        }
+    },
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true,
+            "modules": true
+        }
+    },
+    "extends" : [
+        "plugin:react/recommended",
+        "airbnb-base"
+    ],
+    "rules" : {
+        "arrow-body-style" : "warn",
+        "newline-before-return": "error",
+        "indent": ["error", 4, {
+            "SwitchCase": 1
+        }],
+        "object-curly-spacing": ["error", "never"],
+        "object-curly-newline": ["error", { "multiline": true, "consistent": true}],
+        "max-len": ["error", { "code": 140 }],
+        "comma-dangle": ["error", "never"],
+        "react/display-name": [0],
+        "no-plusplus": ["error", { "allowForLoopAfterthoughts": true }]
+    }
+}
