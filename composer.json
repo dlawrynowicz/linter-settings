@@ -16,5 +16,8 @@
             "dev-master": "0.1-dev"
         }
     },
+    "require": {
+        "escapestudios/symfony2-coding-standard": "3.x-dev"
+    },
     "minimum-stability": "dev"
 }
