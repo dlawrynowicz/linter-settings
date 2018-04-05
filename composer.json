@@ -1,0 +1,20 @@
+{
+    "name": "onify/linter",
+    "type": "phpcodesniffer-standard",
+    "description": "CodeSniffer ruleset for the Onify coding standard",
+    "keywords": ["Onify", "coding standard", "phpcs"],
+    "homepage": "https://github.com/dlawrynowicz/linter-settings",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Damian Lawrynowicz",
+            "email": "fabrykasoftu@gmail.com"
+        }
+    ],
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.1-dev"
+        }
+    },
+    "minimum-stability": "dev"
+}
