@@ -1,6 +1,6 @@
 {
   "name": "linter-settings",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "main": "index.js",
   "repository": "git@github.com:dlawrynowicz/linter-settings.git",
   "author": "d.lawrynowicz <fabrykasoftu@gmail.com>",
